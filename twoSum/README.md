@@ -5,6 +5,8 @@ You may assume that each input would have exactly one solution, and you may not 
 
 You can return the answer in any order.
 
+[Problem Link](https://leetcode.com/problems/two-sum/)
+
 # Solution
 This problem was solved in three ways:
 
