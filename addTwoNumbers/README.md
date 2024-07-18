@@ -3,6 +3,8 @@ You are given two non-empty linked lists representing two non-negative integers.
 
 You may assume the two numbers do not contain any leading zero, except the number 0 itself.
 
+[Problem Link](https://leetcode.com/problems/add-two-numbers/)
+
 # Solution
 This problem was solved in two ways, one solution where the digits are in reverse order (from LSB to MSB), and the other solution where the digits are in proper order (from MSB to LSB):
 
