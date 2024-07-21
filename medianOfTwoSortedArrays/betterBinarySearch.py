@@ -35,8 +35,3 @@ class Solution:
             else:
                 # Move towards the right in nums1
                 left = partitionA + 1
-
-# Example usage
-solution = Solution()
-median = solution.findMedianSortedArrays([1, 3], [2])
-print(median)  # Output: 2.0
