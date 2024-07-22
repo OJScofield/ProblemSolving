@@ -5,9 +5,9 @@ You may assume the two numbers do not contain any leading zero, except the numbe
 
 [Problem Link](https://leetcode.com/problems/add-two-numbers/)
 
-# Solution
+# Solution(s)
 This problem was solved in two ways, one solution where the digits are in reverse order (from LSB to MSB), and the other solution where the digits are in proper order (from MSB to LSB):
 
-1- Reverse Order: The solution iteratively adds corresponding digits of two linked lists, handling carry-over values, and constructs the resulting linked list from least significant to most significant digit.
+1- [Reverse Order](https://github.com/OJScofield/ProblemSolving/blob/main/addTwoNumbers/addTwoNumbers1.py): The solution iteratively adds corresponding digits of two linked lists, handling carry-over values, and constructs the resulting linked list from least significant to most significant digit.
 
-2- Proper Order: The solution reverses the input linked lists, iteratively adds corresponding digits while handling carry-over values, and then reverses the resulting linked list to represent the sum from the most significant to the least significant digit.
+2- [Proper Order](https://github.com/OJScofield/ProblemSolving/blob/main/addTwoNumbers/addTwoNumbers2.py): The solution reverses the input linked lists, iteratively adds corresponding digits while handling carry-over values, and then reverses the resulting linked list to represent the sum from the most significant to the least significant digit.
