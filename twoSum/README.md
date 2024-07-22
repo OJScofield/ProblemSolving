@@ -7,7 +7,7 @@ You can return the answer in any order.
 
 [Problem Link](https://leetcode.com/problems/two-sum/)
 
-# Solution
+# Solution(s)
 This problem was solved in three ways:
 
 1- Brute Force: Iterating over the array/list using two for loops and checking to see if any two numbers' sum match the target. The time complexity is O(n^2) and the space complexity is O(1)
