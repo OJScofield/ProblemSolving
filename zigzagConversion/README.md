@@ -11,4 +11,4 @@ string convert(string s, int numRows);
 
 
 # Solution(s)
-1. [Conversion](https://github.com/OJScofield/ProblemSolving/new/main/zigzagConversion/zigzag.py)
+1. [Conversion](https://github.com/OJScofield/ProblemSolving/blob/main/zigzagConversion/zigzag.py)
