@@ -7,3 +7,4 @@ This repoistory includes all the questions I have solved on LeetCode, HackerRank
 3. [Median of Two Sorted Arrays](https://github.com/OJScofield/ProblemSolving/tree/main/medianOfTwoSortedArrays)
 4. [Palindrome Number](https://github.com/OJScofield/ProblemSolving/tree/main/palindromeNumber)
 5. [Zigzag Conversion](https://github.com/OJScofield/ProblemSolving/tree/main/zigzagConversion)
+6. [Regular Expression Matching](https://github.com/OJScofield/ProblemSolving/tree/main/regularExpressionMatching)
