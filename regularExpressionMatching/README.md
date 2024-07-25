@@ -10,4 +10,4 @@ The matching should cover the entire input string (not partial).
 [Problem Link](https://leetcode.com/problems/regular-expression-matching)
 
 # Solution(s)
-1. [Recursion](https://github.com/OJScofield/ProblemSolving/new/main/regularExpressionMatching/recursion.py)
+1. [Recursion](https://github.com/OJScofield/ProblemSolving/blob/main/regularExpressionMatching/recursion.py)
