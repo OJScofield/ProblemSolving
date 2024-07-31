@@ -1,24 +1,22 @@
 class Solution:
     def longestPalindrome(self, s: str) -> str:
-        if not s:
-            return ""
-        
-        def expandAroundCenter(left: int, right: int) -> str:
+        def expand_from_center(left, right):
             while left >= 0 and right < len(s) and s[left] == s[right]:
                 left -= 1
                 right += 1
-            return s[left + 1:right]
-        
-        longest = ""
+            return right - left - 1
+
+        start, end = 0, 0
+
         for i in range(len(s)):
-            # Check odd-length palindromes
-            single_center_palindrome = expandAroundCenter(i, i)
-            if len(single_center_palindrome) > len(longest):
-                longest = single_center_palindrome
-            
-            # Check even-length palindromes
-            double_center_palindrome = expandAroundCenter(i, i + 1)
-            if len(double_center_palindrome) > len(longest):
-                longest = double_center_palindrome
-        
-        return longest
+            length1 = expand_from_center(i, i)
+            if length1 > end - start + 1:
+                half = length1 // 2
+                start, end = i - half, i + half
+
+            length2 = expand_from_center(i, i + 1)
+            if length2 > end - start + 1:
+                half = length2 // 2
+                start, end = i - half, i + 1 + half
+
+        return s[start:end + 1]
