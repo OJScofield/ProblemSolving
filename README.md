@@ -9,3 +9,4 @@ This repoistory includes all the questions I have solved on LeetCode, HackerRank
 5. [Zigzag Conversion](https://github.com/OJScofield/ProblemSolving/tree/main/zigzagConversion)
 6. [Regular Expression Matching](https://github.com/OJScofield/ProblemSolving/tree/main/regularExpressionMatching)
 7. [Longest Palindromic Substring](https://github.com/OJScofield/ProblemSolving/tree/main/longestPalindromicSubstring)
+8. [Roman To Integer](https://github.com/OJScofield/ProblemSolving/tree/main/romanToInt)
