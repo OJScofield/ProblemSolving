@@ -12,3 +12,4 @@ This repoistory includes all the questions I have solved on LeetCode, HackerRank
 8. [Roman To Integer](https://github.com/OJScofield/ProblemSolving/tree/main/romanToInt)
 9. [Letter Combinations of A Phone Number](https://github.com/OJScofield/ProblemSolving/tree/main/letterCombinationsOfAPhoneNumber)
 10. [Substring with Concatenation of All Words](https://github.com/OJScofield/ProblemSolving/tree/main/substringWithConcatenationOfAllWords)
+11. [Merge Two Sorted Lists](https://github.com/OJScofield/ProblemSolving/tree/main/mergeTwoSortedLists)
